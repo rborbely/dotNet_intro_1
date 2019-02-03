@@ -1,0 +1,13 @@
+D:\Programming\Codes\dotNet_intro_1\FormIntro\bin\Debug\FormIntro.exe.config
+D:\Programming\Codes\dotNet_intro_1\FormIntro\bin\Debug\FormIntro.exe
+D:\Programming\Codes\dotNet_intro_1\FormIntro\bin\Debug\FormIntro.pdb
+D:\Programming\Codes\dotNet_intro_1\FormIntro\bin\Debug\BaseMath.dll
+D:\Programming\Codes\dotNet_intro_1\FormIntro\bin\Debug\BaseMath.pdb
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.csprojAssemblyReference.cache
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.Form1.resources
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.Properties.Resources.resources
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.csproj.GenerateResource.cache
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.csproj.CoreCompileInputs.cache
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.csproj.CopyComplete
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.exe
+D:\Programming\Codes\dotNet_intro_1\FormIntro\obj\Debug\FormIntro.pdb

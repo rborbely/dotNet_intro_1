@@ -1,0 +1,8 @@
+D:\Programming\Codes\dotNet_intro_1\BaseMath\bin\Debug\netstandard1.4\BaseMath.deps.json
+D:\Programming\Codes\dotNet_intro_1\BaseMath\bin\Debug\netstandard1.4\BaseMath.dll
+D:\Programming\Codes\dotNet_intro_1\BaseMath\bin\Debug\netstandard1.4\BaseMath.pdb
+D:\Programming\Codes\dotNet_intro_1\BaseMath\obj\Debug\netstandard1.4\BaseMath.csprojAssemblyReference.cache
+D:\Programming\Codes\dotNet_intro_1\BaseMath\obj\Debug\netstandard1.4\BaseMath.csproj.CoreCompileInputs.cache
+D:\Programming\Codes\dotNet_intro_1\BaseMath\obj\Debug\netstandard1.4\BaseMath.AssemblyInfo.cs
+D:\Programming\Codes\dotNet_intro_1\BaseMath\obj\Debug\netstandard1.4\BaseMath.dll
+D:\Programming\Codes\dotNet_intro_1\BaseMath\obj\Debug\netstandard1.4\BaseMath.pdb
