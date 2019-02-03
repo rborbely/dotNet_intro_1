@@ -22,39 +22,57 @@ namespace FormIntro
 
         private void btnPlus_Click_1(object sender, EventArgs e)
         {
-            double result = 0.0;
+            if (CheckInputsValid())
+            {
+                lblResult.Text = Roland.BaseMath.Math.Add(Double.Parse(tbNum1.Text), Double.Parse(tbNum2.Text)).ToString();
+            }
+        }
+
+        private bool CheckInputsValid()
+        {
+            bool ret_val = true;
+ 
             string Number1 = tbNum1.Text;
             string Number2 = tbNum2.Text;
 
-            if((Number1.Length > 0) && (Number2.Length > 0))
+            if ((Number1.Length > 0) && (Number2.Length > 0))
             {
                 double num1;
                 double num2;
 
-                if((Double.TryParse(Number1, out num1)) && (Double.TryParse(Number2, out num2)))
+                if (!(Double.TryParse(Number1, out num1)) || !(Double.TryParse(Number2, out num2)))
                 {
-                    result = Roland.BaseMath.Math.Add(Double.Parse(tbNum1.Text), Double.Parse(tbNum2.Text));
-
-                    lblResult.Text = result.ToString();
+                    ret_val = false;
                 }
 
 
             }
+
+            return ret_val;
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
-
+            if(CheckInputsValid())
+            {
+                lblResult.Text = Roland.BaseMath.Math.Sub(Double.Parse(tbNum1.Text), Double.Parse(tbNum2.Text)).ToString();
+            }
         }
 
         private void btnMulti_Click(object sender, EventArgs e)
         {
-
+            if (CheckInputsValid())
+            {
+                lblResult.Text = Roland.BaseMath.Math.Multi(Double.Parse(tbNum1.Text), Double.Parse(tbNum2.Text)).ToString();
+            }
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-
+            if (CheckInputsValid())
+            {
+                lblResult.Text = Roland.BaseMath.Math.Div(Double.Parse(tbNum1.Text), Double.Parse(tbNum2.Text)).ToString();
+            }
         }
     }
 }
